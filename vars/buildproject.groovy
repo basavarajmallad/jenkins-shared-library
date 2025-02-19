@@ -1,4 +1,4 @@
-def call() {
- echo "  this stage will genrate the artifact "
+def call('cmd') {
+ echo "  this stage will genrate the artifact of ${cmd} "
  sh "mvn clean package"
 }
