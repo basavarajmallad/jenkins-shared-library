@@ -1,5 +1,5 @@
 def call(cmd) {
-    echo " installing java 17"
+    echo " installing  ${cmd}"
     sh "sudo apt update"
    // sh "sudo apt install -y openjdk-17-jdk"
     echo " ${cmd}"
